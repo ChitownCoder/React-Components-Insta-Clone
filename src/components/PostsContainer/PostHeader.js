@@ -19,3 +19,20 @@ const PostHeader = props => {
 };
 
 export default PostHeader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//* The winning formula was {props.title} in the Title.js. And {card.title} in the Card.js. I think I can actually complete this project now ****DELETE ME WHEN YOU ARE DONE*****/

@@ -13,7 +13,7 @@ import PostsPage from './components/PostsContainer/PostsPage';
 import dummyData from './dummy-data';
 // //
 const App = () => {
-  // set up state for the dummy data and pass to your PostsPage
+ 
   const [posts, setPosts] = useState(dummyData);
   const [searchTerm, setSearchTerm] = useState('');
   const [search, setSearch] = useState(dummyData);
@@ -26,7 +26,7 @@ const App = () => {
 			return character.username.toLowerCase().includes(searchTerm.toLowerCase());
 		});
 		setSearch(results);
-		//eslint-disable-next-line
+	
 	}, [searchTerm]);
 
 	const handleChange = e => {
